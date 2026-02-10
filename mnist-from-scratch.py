@@ -94,7 +94,6 @@ activation2 = Activation_Softmax()
 
 dense1.forward(x)
 
-
 activation1.forward(dense1.output)
 
 dense2.forward(activation1.output)
